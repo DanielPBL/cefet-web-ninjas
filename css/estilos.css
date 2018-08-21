@@ -1,0 +1,73 @@
+body {
+  max-width: 800px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Helvetica";
+  text-align: justify;
+  background-color: #f8f1a3;
+}
+
+.logomarca {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe, img:not(.logomarca) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  font-family: "Times New Roman";
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7108f6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #7108f6;
+  text-decoration: underline;
+}
+
+a[href^="http"] {
+  background-image: url(../img/globo.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+ol ~ em, ul ~ em {
+  opacity: 0.6;
+}
+
+h1, h2, strong {
+  color: #7108f6;
+}
+
+strong {
+  font-size: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #f4e117;
+}
+
+strong ~ em {
+  font-size: 20px;
+}
+
+iframe {
+  margin-top: 5px;
+}
